@@ -1,0 +1,142 @@
+%运行核心：texlive2018
+%program run：xeLatex（运行run.bat即可）
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[9pt,UTF8]{beamer}
+%\usepackage{ctex}
+\usepackage{xeCJK}%加载中文字体宏包，使用了ctex，就不能使用下面的setCJKmainfont了。
+%\setCJKmainfont{微软雅黑}%微软雅黑字体，但不是所有电脑都能使用
+%\setCJKmainfont{宋体}
+\setCJKmainfont[Path=fonts/]{msyh.ttc}%导入本地fonts文件夹下的字体“微软雅黑”。P.S. simsun.ttc为宋体，msyhbd.ttc为微软雅黑粗体，msyhl.ttc为微软雅黑细体
+\beamertemplateshadingbackground{white}{blue!10}%设置灰白渐变背景
+%\beamertemplategridbackground[.25cm] %设置网格背景
+\usepackage{indentfirst} %设置首段首行缩进
+\setlength{\parindent}{2em} %设置缩进 2 个字符宽度
+%\linespread{1.245}%1.5倍行距，加载后，会无法显示脚注
+
+\usetheme{Madrid}%主题，蓝色主题，并在每页最下栏囊括标题内容
+
+\usepackage{multirow}
+
+\newcommand{\blue}{\textcolor[rgb]{0.20,0.20,0.70}}%定义blue为蓝色字体
+\newcommand{\BLUE}[1]{\textbf{\blue{\large #1}}}%BLUE为放大、加粗的蓝色字体
+\newcommand{\jie}[1]{\textbf{\blue{\LARGE #1}}}%"jie(节，PPT叶中的小节)"为最大加粗的蓝色字体
+
+%\tiny \scriptsize \footnotesize \small \normalsize \large \Large \LARGE \huge \Huge.%字体大小：
+
+\usepackage{graphicx}%图片宏包
+\setbeamertemplate{caption}[numbered]%beamer 自身默认图表是没有编号的，如果需要把编号调出来，只需要在导言区加上此段
+%\usepackage{setspace}%使用间距宏包
+
+\graphicspath{{pictures/}}   % 设置图片所存放的目录
+
+\usepackage{tcolorbox}%文字方框宏包
+
+\usepackage{amssymb}%符号宏包
+
+%%%%%%%%%%%%%标题%%%%%%%%%%%
+\title{高血压药物介绍}%选自《2018中国高血压防治指南修订版》
+\author{张旭栋}
+\institute[Hangzhou Ding Qiao Hospital]{杭州市丁桥医院\\
+\textit{E-mail: zang\_xd@outlook.com}
+}
+\date{2018.12.20}
+
+%%%%%%%%%%%%%正文%%%%%%%%%
+\begin{document}
+\include{./body}
+\end{document}%运行核心：texlive2018
+%program run：xeLatex（运行run.bat即可）
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[9pt,UTF8]{beamer}
+%\usepackage{ctex}
+\usepackage{xeCJK}%加载中文字体宏包，使用了ctex，就不能使用下面的setCJKmainfont了。
+%\setCJKmainfont{微软雅黑}%微软雅黑字体，但不是所有电脑都能使用
+%\setCJKmainfont{宋体}
+\setCJKmainfont[Path=fonts/]{msyh.ttc}%导入本地fonts文件夹下的字体“微软雅黑”。P.S. simsun.ttc为宋体，msyhbd.ttc为微软雅黑粗体，msyhl.ttc为微软雅黑细体
+\beamertemplateshadingbackground{white}{blue!10}%设置灰白渐变背景
+%\beamertemplategridbackground[.25cm] %设置网格背景
+\usepackage{indentfirst} %设置首段首行缩进
+\setlength{\parindent}{2em} %设置缩进 2 个字符宽度
+%\linespread{1.245}%1.5倍行距，加载后，会无法显示脚注
+
+\usetheme{Madrid}%主题，蓝色主题，并在每页最下栏囊括标题内容
+
+\usepackage{multirow}
+
+\newcommand{\blue}{\textcolor[rgb]{0.20,0.20,0.70}}%定义blue为蓝色字体
+\newcommand{\BLUE}[1]{\textbf{\blue{\large #1}}}%BLUE为放大、加粗的蓝色字体
+\newcommand{\jie}[1]{\textbf{\blue{\LARGE #1}}}%"jie(节，PPT叶中的小节)"为最大加粗的蓝色字体
+
+%\tiny \scriptsize \footnotesize \small \normalsize \large \Large \LARGE \huge \Huge.%字体大小：
+
+\usepackage{graphicx}%图片宏包
+\setbeamertemplate{caption}[numbered]%beamer 自身默认图表是没有编号的，如果需要把编号调出来，只需要在导言区加上此段
+%\usepackage{setspace}%使用间距宏包
+
+\graphicspath{{pictures/}}   % 设置图片所存放的目录
+
+\usepackage{tcolorbox}%文字方框宏包
+
+\usepackage{amssymb}%符号宏包
+
+%%%%%%%%%%%%%标题%%%%%%%%%%%
+\title{高血压药物介绍}%选自《2018中国高血压防治指南修订版》
+\author{张旭栋}
+\institute[Hangzhou Ding Qiao Hospital]{杭州市丁桥医院\\
+\textit{E-mail: zang\_xd@outlook.com}
+}
+\date{2018.12.20}
+
+%%%%%%%%%%%%%正文%%%%%%%%%
+\begin{document}
+\include{./body}
+\end{document}%运行核心：texlive2018
+%program run：xeLatex（运行run.bat即可）
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[9pt,UTF8]{beamer}
+%\usepackage{ctex}
+\usepackage{xeCJK}%加载中文字体宏包，使用了ctex，就不能使用下面的setCJKmainfont了。
+%\setCJKmainfont{微软雅黑}%微软雅黑字体，但不是所有电脑都能使用
+%\setCJKmainfont{宋体}
+\setCJKmainfont[Path=fonts/]{msyh.ttc}%导入本地fonts文件夹下的字体“微软雅黑”。P.S. simsun.ttc为宋体，msyhbd.ttc为微软雅黑粗体，msyhl.ttc为微软雅黑细体
+\beamertemplateshadingbackground{white}{blue!10}%设置灰白渐变背景
+%\beamertemplategridbackground[.25cm] %设置网格背景
+\usepackage{indentfirst} %设置首段首行缩进
+\setlength{\parindent}{2em} %设置缩进 2 个字符宽度
+%\linespread{1.245}%1.5倍行距，加载后，会无法显示脚注
+
+\usetheme{Madrid}%主题，蓝色主题，并在每页最下栏囊括标题内容
+
+\usepackage{multirow}
+
+\newcommand{\blue}{\textcolor[rgb]{0.20,0.20,0.70}}%定义blue为蓝色字体
+\newcommand{\BLUE}[1]{\textbf{\blue{\large #1}}}%BLUE为放大、加粗的蓝色字体
+\newcommand{\jie}[1]{\textbf{\blue{\LARGE #1}}}%"jie(节，PPT叶中的小节)"为最大加粗的蓝色字体
+
+%\tiny \scriptsize \footnotesize \small \normalsize \large \Large \LARGE \huge \Huge.%字体大小：
+
+\usepackage{graphicx}%图片宏包
+\setbeamertemplate{caption}[numbered]%beamer 自身默认图表是没有编号的，如果需要把编号调出来，只需要在导言区加上此段
+%\usepackage{setspace}%使用间距宏包
+
+\graphicspath{{pictures/}}   % 设置图片所存放的目录
+
+\usepackage{tcolorbox}%文字方框宏包
+
+\usepackage{amssymb}%符号宏包
+
+%%%%%%%%%%%%%标题%%%%%%%%%%%
+\title{文检}%选自《2018中国高血压防治指南修订版》
+\author{张旭栋}
+\institute[Hangzhou Ding Qiao Hospital]{杭州市丁桥医院\\
+\textit{E-mail: zang\_xd@outlook.com}
+}
+\date{2018.12.20}
+
+%%%%%%%%%%%%%正文%%%%%%%%%
+\begin{document}
+\include{./body}
+\end{document}
